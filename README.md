@@ -24,9 +24,11 @@ Residual Plot
 The plot indicates that the points are randomly dispersed around the horizontal axis which means that it supports the linear model. From the histogram on the right side of the plot, the error is distributed around zero which shows that the linear model performs well. 
 
 Linear Regression
+
 <img width="459" alt="Screen Shot 2022-05-08 at 11 17 32 PM" src="https://user-images.githubusercontent.com/57150270/167339808-59076fb7-3477-436c-8411-86e342905f32.png">
 
 SGD Regression
+
 <img width="484" alt="Screen Shot 2022-05-08 at 11 21 44 PM" src="https://user-images.githubusercontent.com/57150270/167340163-de740551-c25d-4269-a6ce-4e6b3c1958bc.png">
 
 Between these two models, linear regression performs better with this dataset. Based on the coefficient of determination, the accuracy score of linear regression model is 61% while the score of SGD regression is negative. It shows that SGD repression model does not follow the trend of the data and does not fit well with the dataset.
